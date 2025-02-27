@@ -1,0 +1,176 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded;
+}
+
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
+body {
+  --hue: var(--hue-neutral);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body.correct {
+  --hue: var(--hue-correct);
+}
+
+body.wrong {
+  --hue: var(--hue-wrong);
+}
+
+main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-image: url(../Imagens/fundoescuro.jpg);
+  background-position: center 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: crisp-edges;
+  overflow: hidden;
+}
+
+header{  
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background: linear-gradient(83deg, rgb(21, 93, 39) 19%, rgba(55,180,67,1) 52%, rgba(59,74,33,1) 100%);
+  background-size: 300%;
+  animation: mudarCores infinite linear infinite;
+}
+
+#logo{
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#logo img{
+  width: 20%;  
+}
+
+#logo p{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+ 
+}
+
+nav{
+  display: flex;
+  gap: 15px;
+}
+
+nav a{
+  color: beige;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+nav a:hover{
+  background-color: beige;
+  color: darkolivegreen;
+}
+
+@keyframes mudarCores {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+#container{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+section {
+  background-color: rgb(38, 92, 45);
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 50px;
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 10px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: auto;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: rgb(178, 253, 159);
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 5px 10px;
+  color: rgb(27, 70, 13);
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.btn.correct {
+  background-color: green;
+  --hue: var(--hue-correct);
+  color: white;
+}
+
+.btn.wrong {
+  background-color: red;
+  --hue: var(--hue-wrong);
+  color:white
+}
+
+.start-btn, .next-btn {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
