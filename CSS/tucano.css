@@ -183,7 +183,7 @@ nav a:hover {
     margin-top: 50px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #pt2{
@@ -194,15 +194,15 @@ nav a:hover {
 }
 
 #pt2 img{
-    width: 48%;
-    height: 400px;
+    width: 60%;
+    height: 300px;
     border: 3px solid #ffffffbe;
     border-radius: 30px;
     margin-right: 50px;
 }
 
 #meio_pt2{
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 40%;
     margin: auto;
 }
