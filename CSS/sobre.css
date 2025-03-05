@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -22,13 +24,13 @@ main{
 header{
     width: 100%;
     height: 100px;
+    font-family: Bagel Fat One;
+    letter-spacing: 1.5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
-    background: linear-gradient(83deg, rgb(21, 93, 39) 19%, rgba(55,180,67,1) 52%, rgba(59,74,33,1) 100%);
-    background-size: 300%;
-    animation: mudarCores infinite linear infinite;
+    background-color: #234724;
 }
 
 @keyframes mudarCores {
@@ -84,14 +86,16 @@ nav a:hover{
 #sobre div{
     width: 50%;
     height: 350px;
-    border: 2px solid white;
+    border: 2px solid rgb(15, 101, 31);
     text-align: center;
     border-radius: 15px;
 }
 
 #sobre h1{
-    font-size: 36px;
+    font-size: 42px;
     color: #f4f4f9;
+    font-family: Bagel Fat One;
+    letter-spacing: 4px;
     padding-top: 25px;
     padding-bottom: 10px;
 }
@@ -102,38 +106,47 @@ nav a:hover{
     padding-top: 15px;
 }
 
-#rodape{
-    position: relative;
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 18%;
-    top: 24px;
-    background: linear-gradient(83deg, rgb(21, 93, 39) 19%, rgba(55,180,67,1) 52%, rgba(59,74,33,1) 100%);
-    background-size: 300%;
-    animation: mudarCores infinite linear infinite;
+    height: 120px;
+    background-color: #234724;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-#logo-rodape{
-    width: 10%;
-    height: 100%;
-    align-self: flex-end;
+#informacoes{
+    background-color: aqua;
+    width: 40%;
+    height: 90%;
 }
 
-#rodape img{
-    width: 100%;
-    height: 100%;
+#redesSociais{
+    background-color: #28AB56;
+    width: 30%;
+    height: 90%;
 }
 
-#rodape a{
-    color: #fff; 
+#redesSociais p{
+    font-size: 16px;
+}
+
+#redesSociais img{
+    width: 50px;
+    height: 50px;
     padding: 10px;
-    background-color: #196821c9;
-    border-radius: 10px;
+    float: ;
+}
+
+#redesSociais a{
     text-decoration: none;
-    font-size: 24px;
 }
 
 
