@@ -206,14 +206,3 @@ nav a:hover {
     height: 40%;
     margin: auto;
 }
-
-footer {
-    width: 100%;
-    height: 20%;
-    background-color: #1B5E20; /* Verde Floresta */
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-  
-}
