@@ -147,6 +147,11 @@ footer {
     gap: 20px;
 }
 
+.footer-social P{
+    font-family: 'Comic Sans MS';
+    align-self: center;
+}
+
 .footer-social img {
     width: 40px;
     height: 35px;
