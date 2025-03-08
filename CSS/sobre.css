@@ -77,7 +77,7 @@ nav a:hover{
 
 #sobre {
     width: 100%;
-    height: auto;
+    height: 65%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +85,7 @@ nav a:hover{
 
 #sobre div{
     width: 50%;
-    height: 350px;
+    height: auto;
     border: 2px solid rgb(15, 101, 31);
     text-align: center;
     border-radius: 15px;
