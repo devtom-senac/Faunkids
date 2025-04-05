@@ -86,12 +86,14 @@ nav a:hover {
   margin-top: 5%;
 }
 
-#sobre div{
-    width: 50%;
-    height: auto;
-    border: 2px solid rgb(15, 101, 31);
-    text-align: center;
-    border-radius: 15px;
+#sobre div {
+  width: 50%;
+  height: 400px;
+  background-color: rgba(91, 146, 53, 0.334);
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
 }
 
 #sobre h1 {
