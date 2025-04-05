@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: Bagel Fat One;
+    letter-spacing: 1.5px;
+    background-color: #234724;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+ 
+#logo{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+ 
+#logo img{
+    width: 20%;  
+}
+ 
+nav{
+    display: flex;
+    gap: 15px;
+}
+ 
+nav a{
+    color: beige;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+ 
+nav a:hover {
+    background-color: beige;
+    color: darkolivegreen;
+}
+
+#fundo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    font-family: tahoma;
+    background-image: url(../Imagens/fundoescuro.jpg);
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+    overflow: hidden;
+    float: left;
+}
+
+#fundo p {
+    font-size: 16px;
+}
+
+#pt1 p{
+    width: 80%;
+    height: auto;
+    position: relative;
+    padding: 80px;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+#pt1 audio{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: -65px;
+}
+
+#pt1 img{
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: auto;
+
+}
+
+#meio_pt1{
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.info{
+    position: relative;
+    width: 700px;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info button{
+    font-size: 20px;
+    width: 35%;
+    height: 80px;
+    border-radius: 30px;
+    background-color: #234724;
+    border:none;
+    color: #fff;
+    margin: 1%;
+}
+
+#botao{
+    position: relative;
+    width: 35%;
+    height: auto;
+}
+
+#botao img{
+    width: 35%;
+    margin-left: 100%;
+}
+
+.player {
+    width: 75%;
+    height: auto;  
+  }
+
+#tucano{
+    width: 25%;
+    height: auto;
+}
+
+#tucano img{
+    position: relative;
+    width: 130%;
+    margin-right: 80px;
+    height: 110%;
+}
+
+#divisa{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(42, 114, 42);
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    color: #fff;
+}
+
+#pt2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#imagens_reais{
+    position: relative;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#pt2{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#pt2 img{
+    width: 60%;
+    height: 300px;
+    border: 3px solid #ffffffbe;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+#meio_pt2{
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+
