@@ -1,141 +1,143 @@
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 main {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    font-family: Bagel Fat One;
-    letter-spacing: 1.5px;
-    background-image: url(../Imagens/fundoescuro.jpg);
-    background-position: center 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    image-rendering: crisp-edges;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  font-family: Bagel Fat One;
+  letter-spacing: 1.5px;
+  background-image: url(../Imagens/fundoescuro.jpg);
+  background-position: center 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: crisp-edges;
+  overflow: hidden;
 }
 
-header{
-    background-color: #234724;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
+header {
+  background-color: #234724;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
 }
 
-#logo{
-    height: 100%;
-    width: 50%;
-    align-items: center;
-    display: flex;
-    margin-bottom: 10px;
+#logo {
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
 }
 
-#logo img{
-    width: 20%;  
+#logo img {
+  width: 20%;
 }
 
-#logo p{
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
+#logo p {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
 }
 
-nav{
-    display: flex;
-    gap: 15px;
+nav {
+  display: flex;
+  gap: 15px;
 }
 
-nav a{
-    color: beige;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 12px;
-    border-radius: 20px;
-    transition: 0.5s;
+nav a {
+  color: beige;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: 0.5s;
 }
 
-nav a:hover{
-    background-color: beige;
-    color: darkolivegreen;
+nav a:hover {
+  background-color: beige;
+  color: darkolivegreen;
 }
 
 section {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
 }
 
-#title{
-    width: 100%;
-    height: 10%;
-    margin-top: 30px;
-    letter-spacing: 3px;  
-    font-size: 25px;
-    text-align: center;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+#title {
+  width: 100%;
+  height: 10%;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #alinhamento {
-    margin: auto;
-    align-self: flex-end;
-    width: 80%;
-    height: 60%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    text-decoration: underline;
-    font-family: "Bagel fat one";
-    letter-spacing: 3px;  
+  margin: auto;
+  align-self: flex-end;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Bagel fat one";
+  letter-spacing: 3px;
 }
 
-#alinhamento div{
-    width: 30%;
-    height: auto;
+#alinhamento div {
+  width: 30%;
+  height: auto;
 }
 
-@keyframes float{
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-#animal1, #animal3{
-    align-self: flex-end;
-    text-align: center;
-    width: 20%;
-    height: 60%;
-    animation: float 3s ease-in-out infinite;
+#animal1,
+#animal3 {
+  align-self: flex-end;
+  text-align: center;
+  width: 20%;
+  height: 60%;
+  animation: float 3s ease-in-out infinite;
 }
 
-#animal2{
-    text-align: center;
-    align-self: flex-start;
-    animation: float 3s ease-in-out infinite;
+#animal2 {
+  text-align: center;
+  align-self: flex-start;
+  animation: float 3s ease-in-out infinite;
 }
 
-
-#animal1 a, #animal2 a, #animal3 a{
-    color: #fff;
+#animal1 a,
+#animal2 a,
+#animal3 a {
+  color: #fff;
 }

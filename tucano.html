@@ -1,64 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FAUNKIDS - Tucano</title>
-        <link rel="stylesheet" href="CSS/tucano.css" type="text/css"/>
-    </head>
-    <body>
-        <main id="fundo">
-            <header>
-                <div id="logo">
-                    <a href="index.html">
-                        <img src="Imagens/faunkidslogo.png">
-                    </a>
-                </div> 
-                <nav>
-                    <a href="index.html">HOME</a>
-                    <a href="animais.html">ANIMAIS</a>
-                    <a href="sobre.html">SOBRE</a>                   
-              </nav>
-            </header>         
-            <section id="pt1">
-                <p>
-                    O tucano-toco, também chamado de tucanuçu, é a maior espécie de tucano. Essas aves pertencem à família Ramphastidae e possuem um bico grande e colorido.
-                    Embora se alimentem principalmente de frutos, também consomem insetos, cobras, rãs, lagartos e ovos de outras aves.
-                </p>
-                <audio controls>
-                    <source src="audio/audiosdesc/desctucano.mp3" type="audio/mp3">
-                </audio>
-                <div id="meio_pt1">
-                    <div class="info">
-                        <button><strong>PESO:</strong><br/>600g</button>
-                        <button><strong>TAMANHO:</strong><br/>60cm</button>
-                        <button><strong>TEMPO DE VIDA:</strong><br/>15 a 20 anos</button>
-                        <button><strong>HÁBITO:</strong><br/>Diurno</button>
-                    </div>
-                    <div id="botao">
-                        <div class="player">
-                            <img src="Imagens/botaotucano.png" alt="Tocar Música" width="100" onclick="document.getElementById('som').play()">
-                            <audio id="som" src="audio/somtucano.mp3"></audio>
-                        </div>
-                    </div>
-                    <div id="tucano">
-                        <img src="Imagens/tucano.png">
-                    </div>
-                </div>
-            </section>
-        </main>
-            <div id="divisa">Conheça o tucano na vida real
-                <iframe width="98%" height="94%" src="https://www.youtube.com/embed/O9E4KjPBjOI?si=xP68CO3ahJR72mdD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAUNKIDS - tucano</title>
+    <link rel="stylesheet" href="CSS/tucano.css" type="text/css" />
+  </head>
+  <body>
+    <main class="fundo">
+      <header>
+        <div id="logo">
+          <a href="index.html">
+            <img src="Imagens/faunkidslogo.png" alt="Logo Faunkids" />
+          </a>
+        </div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="animais.html">ANIMAIS</a>
+          <a href="sobre.html">SOBRE</a>
+        </nav>
+      </header>
+
+      <section id="container-animal">
+        <div id="texto">
+          <p>
+            O tucano possue um bico grande e colorido. Embora se alimentem
+            principalmente de frutos, também consomem insetos, cobras, rãs,
+            entre outros.
+          </p>
+          <audio controls>
+            <source src="audio/audiosdesc/desctucano.mp3" type="audio/mp3" />
+            Seu navegador não suporta áudio.
+          </audio>
+        </div>
+
+        <div id="container-info">
+          <div id="info">
+            <div class="card-info">
+              <p><strong>Peso</strong><br />600g</p>
             </div>
-            <main id="fundo">
-            <section id="pt2">
-                <section id="meio_pt2">
-                    <div id="imagens_reais">
-                        <img src="Imagens/3.png">
-                        <img src="Imagens/4.png">
-                    </div>
-                </section>
-            </section>
-        </main>
-    </body>
+            <div class="card-info">
+              <p><strong>Tamanho</strong><br />60cm</p>
+            </div>
+            <div class="card-info">
+              <p><strong>Tempo de vida</strong><br />15 a 20 anos</p>
+            </div>
+            <div class="card-info">
+              <p><strong>Hábito</strong><br />Diurno</p>
+            </div>
+          </div>
+
+          <div id="caixa-animal">
+            <div class="som">
+              <img
+                src="Imagens/botaotucano.png"
+                alt="Tocar Música"
+                width="100"
+                onclick="document.getElementById('som').play()"
+              />
+              <audio id="som" src="audio/somtucano.mp3"></audio>
+            </div>
+            <div id="img-animal">
+              <img src="Imagens/tucano.png" alt="Imagem da onça" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <br /><br /><br /><br />
+      <hr />
+      <hr />
+      <section class="galeria">
+        <div class="foto">
+          <img src="Imagens/tucano1.jpg" alt="onça" />
+        </div>
+        <div class="foto">
+          <img src="Imagens/tucano2.jpg" alt="onça" />
+        </div>
+        <div class="foto">
+          <img src="Imagens/tucano3.jpg" alt="onça" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-container">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="Imagens/faunkidslogo.png" alt="Logo Fauna Amazônica" />
+          </a>
+        </div>
+
+        <div class="footer-link">
+          <div class="itens-footer">
+            <h3>Sobre Nós</h3>
+            <a href="#">Nossa missão</a>
+            <a href="#">Institucional</a>
+            <a href="#">Contatos</a>
+          </div>
+          <div class="itens-footer">
+            <h3>Suporte</h3>
+            <a href="#">FAQ</a>
+            <a href="#">Chat</a>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <div>
+            <h3>SIGA-NOS</h3>
+          </div>
+          <div>
+            <a href="#"><img src="Imagens/insta.png" alt="instagram" /></a>
+            <a href="#"><img src="Imagens/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="Imagens/tiktok.png" alt="tiktok" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="direitos">
+        <p>© 2025 Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </body>
 </html>

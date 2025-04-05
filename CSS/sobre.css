@@ -1,86 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-main{
-    position: relative;
-    width: 100%;
-    height: 650px;
-    margin: auto;
-    font-family: tahoma;
-    background-image: url(../Imagens/fundoescuro.jpg);
-    background-position: center 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    image-rendering: crisp-edges;
-    overflow: hidden;
+main {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  margin: auto;
+  font-family: tahoma;
+  background-image: url(../Imagens/fundoescuro.jpg);
+  background-position: center 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: crisp-edges;
+  overflow: hidden;
 }
 
-
-header{
-    width: 100%;
-    height: 100px;
-    font-family: Bagel Fat One;
-    letter-spacing: 1.5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    background-color: #234724;
+header {
+  width: 100%;
+  height: 100px;
+  font-family: Bagel Fat One;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background-color: #234724;
 }
 
 @keyframes mudarCores {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
-#logo{
-    height: 80%;
-    width: 50%;
-    align-items: center;
-    display: flex;
-    margin-bottom: 10px;
+#logo {
+  height: 80%;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
 }
 
-#logo img{
-    width: 20%;  
+#logo img {
+  width: 20%;
 }
 
-#logo p{
-    color: #fff;
-    font-size: 22px;
-    text-align: center;  
+#logo p {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
 }
 
-nav{
-    display: flex;
-    gap: 15px;
+nav {
+  display: flex;
+  gap: 15px;
 }
 
-nav a{
-    color: beige;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 12px;
-    border-radius: 20px;
-    transition: 0.5s;
+nav a {
+  color: beige;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: 0.5s;
 }
 
-nav a:hover{
-    background-color: beige;
-    color: darkolivegreen;
+nav a:hover {
+  background-color: beige;
+  color: darkolivegreen;
 }
 
 #sobre {
-    width: 100%;
-    height: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 #sobre div{
@@ -91,75 +94,99 @@ nav a:hover{
     border-radius: 15px;
 }
 
-#sobre h1{
-    font-size: 42px;
-    color: #f4f4f9;
-    font-family: Bagel Fat One;
-    letter-spacing: 4px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+#sobre h1 {
+  font-size: 42px;
+  color: #f4f4f9;
+  font-family: Bagel Fat One;
+  letter-spacing: 4px;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
-#sobre p{
-    color: white;
-    font-size: 24px;
-    padding-top: 15px;
-    font-family: 'Comic Sans MS';
+#sobre p {
+  color: white;
+  font-size: 24px;
+  padding-top: 15px;
+  font-family: "Comic Sans MS";
 }
 
 footer {
-    width: 100%;
-    height: 20%;
-    background-color: #1B5E20; /* Verde Floresta */
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-  
+  position: relative;
+  width: 100%;
+  height: 210px;
+  background-color: #234724;
+  font-family: "Comic Sans MS";
+  color: white;
+  padding: 20px;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row; /* Agora os elementos ficam lado a lado */
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
+#footer-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-logo img {
-    width: 120px;
-    transition: transform 0.3s ease;
+  width: 150px;
+  transition: transform 0.3s ease;
 }
 
-.footer-logo img:hover {
-    transform: scale(1.5);
+.footer-link {
+  display: flex;
+  gap: 150px;
+  text-align: left;
 }
 
+.itens-footer {
+  display: flex;
+  flex-direction: column;
+}
 
-.footer-info {
-    font-size: 16px;
-    font-family: 'Comic Sans MS';
-    text-align: center;
+.itens-footer h3 {
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.itens-footer a {
+  text-decoration: none;
+  margin: 5px 0px;
+  color: white;
+  font-size: 15px;
 }
 
 .footer-social {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer-social P{
-    font-family: 'Comic Sans MS';
-    align-self: center;
+.footer-social h3 {
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 18px;
 }
 
-.footer-social img {
-    width: 40px;
-    height: 35px;
-    transition: transform 0.3s ease;
+.footer-social a img {
+  margin: 15px;
+  width: 60px;
+  height: 40px;
+  transition: transform 0.3s ease;
 }
 
-.footer-social img:hover {
-    transform: scale(1.5);
+.direitos p {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  border-top: 1px solid white;
+  margin-top: 10px;
 }
 
-
+img:hover {
+  transform: scale(1.3);
+}

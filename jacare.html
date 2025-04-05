@@ -1,65 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FAUNKIDS - Jacaré</title>
-        <link rel="stylesheet" href="CSS/jacare.css" type="text/css"/>
-    </head>
-    <body>
-        <main class="fundo">
-            <header>
-                <div id="logo">
-                    <a href="index.html">
-                        <img src="Imagens/faunkidslogo.png">
-                    </a>
-                </div> 
-                <nav>
-                    <a href="index.html">HOME</a>
-                    <a href="animais.html">ANIMAIS</a>
-                    <a href="sobre.html">SOBRE</a>
-              </nav>
-            </header>         
-            <section id="pt1">
-                <p>
-                    O jacaré, também conhecido como jacaré-açu ou jacaré-preto, pertence à família Alligatoridae e é o maior crocodiliano da América do Sul.
-                    É um grande predador com habilidade de camuflagem, alimentando-se de jacarés menores, mamíferos como a onça-pintada e cobras gigantes como a sucuri.
-                </p>
-                <audio controls>
-                    <source src="audio/audiosdesc/descjaca.mp3" type="audio/mp3">
-                  </audio>
-                <div id="meio_pt1">
-                    <div class="info">
-                        <button><strong>PESO:</strong><br/>350Kg</button>
-                        <button><strong>TAMANHO:</strong><br/>4.5m</button>
-                        <button><strong>TEMPO DE VIDA:</strong><br/>35 A 50 ANOS</button>
-                        <button><strong>HÁBITO:</strong><br/>NOTURNO</button>
-                    </div>
-                    <div id="botao">
-                        <div class="player">
-                            <img src="Imagens/botaojaca.png" alt="Tocar Música" width="100" onclick="document.getElementById('som').play()">
-                            <audio id="som" src="audio/somjaca.mp3"></audio>
-                        </div>
-                    </div>
-                    <div id="jacare">
-                        <img src="Imagens/jacare.png">
-                    </div>
-                </div>
-            </section>
-        </main>
-        <div id="divisa">Conheça o jacaré na vida real
-            <iframe width="98%" height="94%" src="https://www.youtube.com/embed/OIF61LphhCY?si=Q1AAvmpgeLBUKPk6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAUNKIDS - Jacaré</title>
+    <link rel="stylesheet" href="CSS/jacare.css" type="text/css" />
+  </head>
+  <body>
+    <main class="fundo">
+      <header>
+        <div id="logo">
+          <a href="index.html">
+            <img src="Imagens/faunkidslogo.png" alt="Logo Faunkids" />
+          </a>
+        </div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="animais.html">ANIMAIS</a>
+          <a href="sobre.html">SOBRE</a>
+        </nav>
+      </header>
+
+      <section id="container-animal">
+        <div id="texto">
+          <p>
+            O Jacaré É um grande predador com habilidade de camuflagem,
+            alimentando-se de jacarés menores, mamíferos como a onça-pintada e
+            cobras gigantes como a sucuri.
+          </p>
+          <audio controls>
+            <source src="audio/audiosdesc/descjaca.mp3" type="audio/mp3" />
+            Seu navegador não suporta áudio.
+          </audio>
         </div>
 
-        <section class="fundo">
-            <section id="pt2">
-                <section id="meio_pt2">
-                    <br/><br/><br/><br/><br/>
-                    <div id="imagens_reais">
-                        <img src="Imagens/1.png">
-                        <img src="Imagens/2.png">
-                    </div>
-            </section>                        
-        </section>
-    </body>
+        <div id="container-info">
+          <div id="info">
+            <div class="card-info">
+              <p><strong>Peso</strong><br />350Kg</p>
+            </div>
+            <div class="card-info">
+              <p><strong>Tamanho</strong><br />4.5m</p>
+            </div>
+            <div class="card-info">
+              <p><strong>Tempo de vida</strong><br />35 A 50 ANOS</p>
+            </div>
+            <div class="card-info">
+              <p><strong>Hábito</strong><br />NOTURNO</p>
+            </div>
+          </div>
+
+          <div id="caixa-animal">
+            <div class="som">
+              <img
+                src="Imagens/botaojaca.png"
+                alt="Tocar Som"
+                width="100"
+                onclick="document.getElementById('som').play()"
+              />
+              <audio id="som" src="audio/somjaca.mp3"></audio>
+            </div>
+            <div id="img-animal">
+              <img src="Imagens/jacare.png" alt="Imagem do Jacaré" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <br /><br /><br /><br />
+      <hr />
+      <hr />
+      <section class="galeria">
+        <div class="foto">
+          <img src="Imagens/jacare1.jpg" alt="jacare" />
+        </div>
+        <div class="foto">
+          <img src="Imagens/jacare2.jpg" alt="Imagem 2" />
+        </div>
+        <div class="foto">
+          <img src="Imagens/jacare3.jpg" alt="Imagem 3" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-container">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="Imagens/faunkidslogo.png" alt="Logo Fauna Amazônica" />
+          </a>
+        </div>
+
+        <div class="footer-link">
+          <div class="itens-footer">
+            <h3>Sobre Nós</h3>
+            <a href="#">Nossa missão</a>
+            <a href="#">Institucional</a>
+            <a href="#">Contatos</a>
+          </div>
+          <div class="itens-footer">
+            <h3>Suporte</h3>
+            <a href="#">FAQ</a>
+            <a href="#">Chat</a>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <div>
+            <h3>SIGA-NOS</h3>
+          </div>
+          <div>
+            <a href="#"><img src="Imagens/insta.png" alt="instagram" /></a>
+            <a href="#"><img src="Imagens/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="Imagens/tiktok.png" alt="tiktok" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="direitos">
+        <p>© 2025 Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </body>
 </html>
