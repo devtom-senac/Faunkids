@@ -128,7 +128,8 @@ nav a:hover {
   justify-content: center;
 }
 
-#img-animal {
+#img-animal img {
+  height: 350px;
   transition: transform 0.5s ease;
 }
 
